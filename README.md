@@ -23,9 +23,15 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. How would you describe acessibility on the web to someone new to programming?
+Accesibility is when you cater a website for someone that has disabilities.  Such as being blind or hard of hearing, people use screenreaders.  We can make our website accesible by  programming features into it.
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+alt tags for screenreaders
+we can make the screensize of our site accessbile on all devices
+mark up our HTML semantically
 3. How would you explain the concept of a variable to someone new to programming?
+var is a placeholder and is like (x) in math.  If x =1 , then x + 2 = 3
 4. What is the purpose of using functions in code?
+So we don't have to hardcode everything.  We can create a function so we can perform a particular task.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
