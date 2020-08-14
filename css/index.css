@@ -14,7 +14,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {  
 margin: 0;  
 padding: 0;  
-border: 0;  
+border: 0; 
 font-size: 100%;  
 font: inherit;  
 vertical-align: baseline;  
@@ -31,7 +31,7 @@ body{
 h1, p, .name, .bio {	
     font-family: 'Raleway', sans-serif;	
     text-align: center;	
-    margin: 4%;	
+    margin: 4%;
 }	
 h1{
     font-size:6rem;
@@ -133,4 +133,44 @@ button:hover{
 }
 .artist img{
     width:100%;
+}
+
+@media (max-width: 500px) {
+    body {
+        font-size:1.6rem;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .title-container div {
+        width: 100%;
+    }
+
+    .artists-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .artist {
+        width: 90%;
+    
+    }
+
+  
+    .bio {
+        border: none;
+        text-align: center;
+        padding:1%;
+    }
+    .artist a {
+        border: none;
+    }
 }
